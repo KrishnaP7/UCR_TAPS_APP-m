@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onBackPressed() {
-        Intent myIntent = new Intent(this, HomeScreen.class);
+        Intent myIntent = new Intent(this, MainActivity.class);
 
         startActivity(myIntent);
     }
